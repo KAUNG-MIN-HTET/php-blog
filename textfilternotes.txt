@@ -1,0 +1,28 @@
+htmlentities(); {double code single code ဖျောက်တာ}
+*note
+htmlentities() က < > တွေလောက်ပဲရတာ '' or "" တွေပါချင်ရင် 2nd parameter မှာ ENT_QUOTES ဆိုတဲ့ quote style လေးထည့်ပေး။
+entities ပုံစံပြောင်းပေးတာ
+
+
+stripcslashes()
+*note
+/ တွေဖျောက်ပေးတာ
+database injection တွေလဲမထိအောင်
+
+
+
+trim();
+*note
+{ white space }
+
+
+
+html_entities_decode();
+*note
+entities code တွေကို html code အဖြစ်ပြန်ပြောင်းပေးတယ်
+example: <b></b> ထဲရေးရင် result ကboldရမယ်
+
+
+strip_tags();
+*note
+html tag တွေဖျောက်ပေးတာ

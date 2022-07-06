@@ -1,0 +1,14 @@
+USERS
+-id
+-Name
+-Email
+-Password
+-Role
+-Photo
+-Created_at
+
+
+Role
+0.admin
+1.Editor
+2.User
